@@ -6,13 +6,13 @@ Velkommen til Jentelunsj med Gnist - Git Gøy-utgaven! Dette er et lynkurs i Git
 1. Klone repoet til din lokale datamaskin.
 2. Opprett en JSON-fil kalt "characters.json" i repoet.
 3. Legg til informasjon om noen Disney-karakterer i JSON-filen, inkludert navn, film, og beskrivelse.
-4. Utfør i terminalen "git add ." og "git commit" med en melding for å lagre endringene dine i repoet.
+4. Utfør i terminalen "git add ." og "git commit -m" med en melding for å lagre endringene dine i repoet.
 5. Push endringene tilbake til GitHub med kommandoen "git push".
 
 Så din terminal når du er ferdig burde se slik ut:
 ```
 git add .
-git commit "Added my favorite Disney character in a JSON-file"
+git commit -m "Added my favorite Disney character in a JSON-file"
 git push
 ```
 
